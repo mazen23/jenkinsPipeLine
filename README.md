@@ -1,2 +1,2 @@
-# jenkinsPipeLine
-This is a simple Jenkins Pipeline .. Just for demonstartion
+# maven-project
+Source code for simple.pipeline
