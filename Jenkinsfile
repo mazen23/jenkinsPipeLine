@@ -10,7 +10,7 @@ pipeline {
          string(name: 'tomcat_prod', defaultValue: 'http://localhost:8081, description: 'Production Server')
     } 
 
-    triggers {قالي قد
+    triggers {
          pollSCM('* * * * *') // Polling Source Control
      }
 
