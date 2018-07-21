@@ -6,7 +6,7 @@ pipeline {
     }
 	
     parameters { 
-         string(name: 'tomcat_dev', defaultValue: 'ec2-52-14-198-9.us-east-2.compute.amazonaws.com:8090', description: 'StagingServer')
+         string(name: 'tomcat_dev', defaultValue: 'ec2-52-14-198-9.us-east-2.compute.amazonaws.com', description: 'StagingServer')
          string(name: 'tomcat_prod', defaultValue: 'http://localhost:8081', description: 'ProductionServer')
     } 
 
